@@ -1,0 +1,279 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/first.css">
+    <style>
+      
+        p {
+            line-height: 1px
+        }
+
+        body {
+
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        h1 {
+            
+            justify-items: center;
+            align-items: center;
+            color: gold;
+            letter-spacing: 0;
+            text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(150, 182, 9);
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 32px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .abc {
+            line-height: 20px;
+            text-align: left
+        }
+        
+        /* ------------------------------------- */
+
+
+        #Header {
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            font-size: 15px;
+            color: #fffaf3;
+            font-weight: bold;
+            background-color: #f9c81e;
+            justify-items: center;
+        }
+
+        #Sidebar {
+            width: 20%;
+            float: left;
+            height: 100%;
+            text-align: center;
+            line-height: 280px;
+            font-size: 15px;
+            color: #ffffff;
+            font-weight: bold;
+            background-color: #cecece;
+        }
+
+        #body {
+            width: 80%;
+            height: 100%;
+            text-align: center;
+            line-height: 280px;
+            font-size: 15px;
+            color: #f9c81e;
+            font-weight: bold;
+            background-color: #fffaf3;
+            float: left;
+            overflow: auto
+        }
+
+        #Footer {
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            font-size: 15px;
+            color: #fffaf3;
+            font-weight: bold;
+            background-color: #f9c81e;
+        }
+    </style>
+    
+
+</head>
+
+<body>
+    <div id="taitol"><h1 >台中拉麵地圖網</h1></div>
+    
+    <div id="Header">
+        <div class="navbar">
+            <a href="./index.html">首頁</a>
+            <a href="./shop.html">地圖</a>
+            <div class="dropdown">
+                <button class="dropbtn">其他
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="./link1.html">店家資訊</a>
+                    <a href="./link2.html">參考資料</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------>
+    <div id="Sidebar">
+        <div class="abc">
+            <ul>
+                <h3>台中人気のラーメン</h3>
+                <hr>
+
+                <li>
+                    <a href="./first.html"id="ri">
+                        <p>狸匠拉麵</p>
+                </li>
+                <li>
+                    <a href="./two2.html" id="yama">
+                        <p>山下公園拉麵</p>
+                </li>
+                <li>
+                    <a href="./three.html">
+                        <p>有囍拉麵</p>
+                </li>
+                <li>
+                    <a href="./four.html">
+                        <p>激勵軒拉麵</p>
+                </li>
+                <li>
+                    <a href="./five.html">
+                        <p>らーめん七面鳥</p>
+                </li>
+            
+
+                </a>
+            </ul>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------------------>
+    <div id="Body">
+        <h1><a href="https://www.facebook.com/cpramen/">激勵軒拉麵</a></h1>
+       <!-- Slideshow container -->
+       <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./photo/機0.jpg" style="width:100%">
+         
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./photo/機1.jpg" style="width:100%">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./photo/機2.jpg" style="width:100%">
+          
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        
+        </div>       
+   
+
+        <div class="about">
+            <p>
+                <h1>地址:</h1>
+                <h2>台中市太平區樹德路12-2號</h2>
+                <h3>激勵軒，台中太平滿有人氣的拉麵店，它是「狸匠拉麵」的另一個品牌，老闆希望能製作出更適合台灣人的口味，所以在自己的故鄉太平，從雞湯拉麵開始。</h3>
+            </p>
+        <p>
+            <h1>商品:</h1>
+            <h2>【雞白湯-男湯  $210元】</h2></p>
+        <img src="./photo/機3.jpg" alt="">
+        <p><h3>顧名思義，就是口味比較醇厚，男子漢味道的。
+
+            湯頭看起來黃澄澄的，上頭浮著一層透亮的油光，原本以為是雞高湯加了奶油，結果是老闆加了胡蘿蔔才產生的顏色。
+            
+            如果害怕胡蘿蔔的人不要擔心，其實湯頭沒啥怪味，不鹹不膩滿順口的。</h3></p>
+        <img src="./photo/機4.jpg" alt="">
+        <p><h3>雞叉燒給了六片，多了三片是有炙燒過的雞腿肉。炙燒過的雞肉多了一點焦香氣，除此之外，感覺和沒有炙燒過的差異不大。</h3></p>
+        <p><h2>【鹽味雞湯拉麵 170元  】</h2></p>
+        <img src="./photo/機5.jpg" alt="">
+        <p ><h3>拉麵上桌挺美的，湯頭淡黃澄清浮著薄薄的一層油脂，嚐起來是很乾淨的雞湯味，調味沒有太鹹（應該是符合大部分台灣顧客可接受的鹹度）。</h3></p>
+           
+        <img src="./photo/機6.jpg" alt="">
+            <p><h3>把紫洋蔥及橙片拌入湯中，湯頭就有了明顯的層次變化，多了酸甜解膩的柑橘味和洋蔥的甜味，是jay喜歡的味道。
+
+                半熟蛋是醬油味，味道上和這碗湯似乎沒那麼搭，但熟度剛好，單吃還不錯，</h3></p>
+            <hr>   
+            <h1>地圖:</h1>
+        </div>
+        <div class="ri">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.6130959013494!2d120.70859085066313!3d24.150222084317193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d4f27d08461%3A0xc0df031db0a19671!2z5r-A5Yu16LuSIENoaWNrZW4gUG93ZXIgUmFtZW4!5e0!3m2!1szh-TW!2stw!4v1626342479066!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+      
+
+
+    </div>
+
+    <!---------------------------------------------------------------------->
+    <div style='clear:both;'></div>
+    <!---------------------------------------------------------------------->
+    <div id="Footer">
+        
+    </div>
+
+</body>
+<script src="./app.js"></script>
+</html>

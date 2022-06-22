@@ -1,0 +1,262 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/first.css">
+    <style>
+        p {
+            line-height: 1px
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: gold;
+            letter-spacing: 0;
+            text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(150, 182, 9);
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 32px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .abc {
+            line-height: 20px;
+            text-align: left
+        }
+        
+        /* ------------------------------------- */
+
+
+        #Header {
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            font-size: 15px;
+            color: #fffaf3;
+            font-weight: bold;
+            background-color: #f9c81e;
+        }
+
+        #Sidebar {
+            width: 20%;
+            float: left;
+            height: 100%;
+            text-align: center;
+            line-height: 280px;
+            font-size: 15px;
+            color: #ffffff;
+            font-weight: bold;
+            background-color: #cecece;
+        }
+
+        #body {
+            width: 80%;
+            height: 100%;
+            text-align: center;
+            line-height: 280px;
+            font-size: 15px;
+            color: #f9c81e;
+            font-weight: bold;
+            background-color: #fffaf3;
+            float: left;
+            overflow: auto
+        }
+
+        #Footer {
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            font-size: 15px;
+            color: #fffaf3;
+            font-weight: bold;
+            background-color: #f9c81e;
+        }
+    </style>
+    
+
+</head>
+
+<body>
+    <H1>台中拉麵地圖網</H1>
+    <div id="Header">
+        <div class="navbar">
+            <a href="./index.html">首頁</a>
+            <a href="./shop.html">地圖</a>
+            <div class="dropdown">
+                <button class="dropbtn">其他
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="./link1.html">店家資訊</a>
+                    <a href="./link2.html">參考資料</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------>
+    <div id="Sidebar">
+        <div class="abc">
+            <ul>
+                <h3>台中人気のラーメン</h3>
+                <hr>
+
+                <li>
+                    <a href="#" id="ri">
+                        <p>狸匠拉麵</p>
+                </li>
+                <li>
+                    <a href="./two2.html" id="yama">
+                        <p>山下公園拉麵</p>
+                </li>
+                <li>
+                    <a href="./three.html">
+                        <p>有囍拉麵</p>
+                </li>
+                <li>
+                    <a href="./four.html">
+                        <p>激勵軒拉麵</p>
+                </li>
+                <li>
+                    <a href="./five.html">
+                        <p>らーめん七面鳥</p>
+                </li>
+             
+
+                </a>
+            </ul>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------------------>
+    <div id="Body">
+        <h1><a href="https://www.facebook.com/Zhongxiao.Ramen/">狸匠拉麵</a></h1>
+       <!-- Slideshow container -->
+       <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./photo/哩00.jpg" style="width:100%">
+         
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./photo/狸1.jpg" style="width:100%">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./photo/3.jpg" style="width:100%">
+          
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        
+        </div>       
+   
+
+        <div class="about">
+            <p>
+                <h1>地址:</h1>
+                <h2>狸匠拉麵位在台中市南區的建成路上，鄰近忠孝夜市、中興大學、台中家商，距離台中火車站也不遠</h2></p>
+        <p>
+            <h1>商品:</h1>
+            <h3>【和牛雞骨清湯 $270】</h3></p>
+        <img src="./photo/狸2.jpg" alt="">
+        <p><h3>雞骨熬製的雞湯口味清爽、不油不膩，如果你本身很怕豚骨湯頭的濃郁膩感，狸匠拉麵的雞湯很適合你。</h3></p>
+        <img src="./photo/狸3.jpg" alt="">
+        <p><h3>【豚激辛 $180】</h3></p>
+        <img src="./photo/狸4.jpg" alt="">
+        <p class="oishi"><h3>狸匠拉麵的豚骨湯頭也是很多人推薦的！還有人在 Google 評論說太濃(?) 這不是優點嗎😂 日本拉麵真的是超濃啊！<br>
+            狸匠的豚骨湯頭濃郁香醇，選激辛有加特製辣醬，越吃越涮嘴，比較不易膩喔～</h3></p>
+            <img src="./photo/狸5.jpg" alt="">
+            <p><h3>叉燒肉有兩片，厚度滿厚的，表面還有稍微炙燒過，香氣有出來，吃起來軟嫩不油膩。</h3></p>
+            <hr>   
+            <h1>地圖:</h1>
+        </div>
+        <div class="ri">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14564.916878608343!2d120.68347!3d24.128587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xba77f65cfe79e1f2!2z54u45Yyg5ouJ6bq1IC3mt7HlpJzmi4npurU!5e0!3m2!1szh-TW!2stw!4v1626334007994!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+      
+
+
+    </div>
+
+    <!---------------------------------------------------------------------->
+    <div style='clear:both;'></div>
+    <!---------------------------------------------------------------------->
+    <div id="Footer">
+        
+    </div>
+
+</body>
+<script src="./app.js"></script>
+</html>
